@@ -1,0 +1,3 @@
+/home/yaskow/Documents/M1/S2/C++/CPP/cmake-build-debug/CMakeFiles/translator.dir
+/home/yaskow/Documents/M1/S2/C++/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yaskow/Documents/M1/S2/C++/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
