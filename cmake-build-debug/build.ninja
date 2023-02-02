@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_translator: phony || CMakeFiles/translat
 
 build CMakeFiles/translator.dir/src/translator.cpp.o: CXX_COMPILER__translator_Debug /home/yaskow/Documents/M1/S2/C++/CPP/src/translator.cpp || cmake_object_order_depends_target_translator
   DEP_FILE = CMakeFiles/translator.dir/src/translator.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror -std=gnu++20
   OBJECT_DIR = CMakeFiles/translator.dir
   OBJECT_FILE_DIR = CMakeFiles/translator.dir/src
 

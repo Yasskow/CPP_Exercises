@@ -2,6 +2,7 @@
 #include <string>
 #include <set>
 #include <map>
+#include <sstream>
 
 using namespace  std;
 
@@ -29,9 +30,23 @@ int main(){
             std::cout << w1 +" => "+w2 << endl;
         }
         if(value == "translate"){
-            std::cin >> w1;
-            if(!ourMap.contains(w1)){
-
+            string line;
+            getline(cin, line);
+            stringstream stream(line);
+            string key;
+            while (!stream.eof()){
+                stream >> key;
+                if (ourMap.contains(key)){
+                    std::cout << ourMap.find(key)->second << " ";
+                } else{
+                    std::cout << " ??? ";
+                }
+            }
+            std::cout << endl;
+        }
+        if(value == "print"){
+            for(auto elem: ourMap){
+                cout << elem.first + " => "+ elem.second << endl;
             }
         }
     }
