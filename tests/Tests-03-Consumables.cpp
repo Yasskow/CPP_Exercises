@@ -1,6 +1,7 @@
 #include "../lib/Consumable.hpp"
 #include "../lib/Ingredient.hpp"
 #include "../src/Kitchen.hpp"
+#include <set>
 
 #include <catch2/catch_test_macros.hpp>
 
